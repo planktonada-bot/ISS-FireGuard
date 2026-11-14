@@ -44,7 +44,7 @@ https://github.com/planktonada-bot/ISS-FireGuard
 **AI**
 - In the product: the "SI Crew Advisor" uses retrieval over the NASA knowledge base (BM25) plus a rule engine built from PSI findings; when an Anthropic API key is configured, Claude writes answers grounded only in the retrieved NASA passages and cites them. Without a key the app works fully offline.
 - In development: we used Claude (Anthropic) as a coding assistant to write and debug code, parse PSI data files and draft documentation. All data, physics anchors and citations were checked against the NASA sources.
-- Camera footage of the cabin is a computer-generated simulation, labelled as such in the app.
+- Camera footage of the cabin (48 clips) is SI-generated (rendered with Claude) and carries a visible "SI-GENERATED VIDEO" watermark in the app.
 
 ## 6. References
 

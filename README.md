@@ -12,7 +12,7 @@
 | **Lessons & Spinoffs** | Lessons from Apollo 1, Apollo 13, Mir 1997 and Artemis II, mapped to dashboard features, plus Earth applications (smoke detectors, firefighter air tanks and gear, water mist). |
 
 ### CCTV
-Each module tab has two looping camera feeds (`public/assets/cctv`, 8 sections × 3 states × 2 cameras, from `ship_cctv_microgravity_1.zip`). Both are rendered, not real ISS footage:
+Each module tab has two looping camera feeds (`public/assets/cctv`, 8 sections × 3 states × 2 cameras). **All 48 clips are SI-generated (rendered with Claude, Anthropic) — not real ISS footage.** Every feed carries a visible "SI-GENERATED VIDEO" watermark in the app, as the Space Apps SI-use rules require:
 - **Normal camera (VIS).**
 - **Special ICCD camera, 350–470 nm.** Sees the CH₂O* glow of cool flames.
 
