@@ -1,7 +1,8 @@
 # FireGuard SI — Flame in Freefall (NASA Space Apps 2026)
 
 **An SI-powered dashboard that summarizes, ranks and interprets NASA's microgravity combustion research (PSI) and turns it into live fire-safety guidance for spacecraft, Moon bases and pressurized rovers.**
-n**▶ Live demo: https://planktonada-bot.github.io/ISS-FireGuard/** (runs fully in the browser, offline SI mode; the optional Claude chat needs `npm start` with an API key).
+
+**▶ Live demo: https://planktonada-bot.github.io/ISS-FireGuard/** (runs fully in the browser, offline SI mode; the optional Claude chat needs `npm start` with an API key).
 
 ## What it does
 
