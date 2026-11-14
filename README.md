@@ -2,7 +2,7 @@
 
 **An SI-powered dashboard that summarizes, ranks and interprets NASA's microgravity combustion research (PSI) and turns it into live fire-safety guidance for spacecraft, Moon bases and pressurized rovers.**
 
-**▶ Live demo: https://planktonada-bot.github.io/ISS-FireGuard/** (runs fully in the browser, offline SI mode; the optional Claude chat needs `npm start` with an API key).
+**▶ Live demo: https://planktonada-bot.github.io/ISS-FireGuard/** · **🎬 30-s video: https://planktonada-bot.github.io/ISS-FireGuard/demo.mp4** (runs fully in the browser, offline SI mode; the optional Claude chat needs `npm start` with an API key).
 
 ## What it does
 
