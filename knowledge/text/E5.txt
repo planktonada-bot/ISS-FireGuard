@@ -1,0 +1,87 @@
+Structure & Liftoff in Combustion Experiment (SLICE)
+
+laminar diffusion flames are especially valuable for studies of
+combustion because of the availability of accurate numerical modeling
+with that flame configuration. In particular, excellent agreement can be
+achieved when the flow conditions are such that the flame detaches and
+lifts above (i.e., moves downstream of) the nozzle. A coupled
+experimental and numerical investigation can enable validation and
+improvements to combustion modeling. For example, the image to the
+right is not a photo, but a numerical simulation of a 40% ethylene flame.
+Enhanced modeling capability is important because it can reduce time
+and cost in the design of practical combustion devices. Furthermore, flame attachment to (or
+detachment from) a burner or condensed-fuel surface is of essential importance in both
+combustion systems and fire safety. The flame attachment point controls the stability of the entire
+trailing diffusion flame.
+
+Microgravity testing allows for greater temporal and spatial scales and a broader range of flame
+characteristics than can be achieved in normal gravity. As one example of the NASA-recognized
+value of such studies, the Coflow Laminar Diffusion Flame (CLD Flame) experiment of Marshall B.
+Long and Mitchell D. Smooke (both of Yale U.) is currently in development for conduct in the
+Combustion Integrated Rack (CIR) on the International Space Station, as part of the Advanced
+Combustion via Microgravity Experiments (ACME) project.
+
+The overall goal of the proposed study is to improve our understanding of the physical and chemical
+processes controlling diffusion (i.e., non-premixed) flame structure and lifting phenomena (i.e.,
+stabilization) and to provide for rigorous testing of numerical models, including thermal radiation,
+soot formation, and detailed chemical kinetics. As part of this aim, an important purpose of the
+SLICE investigation is to conduct preliminary microgravity studies that will maximize the scientific
+return of the subsequent CLD Flame experiment and mitigate associated risks. In other words,
+SLICE is a precursor to the CLD Flame experiment.
+
+Objectives
+
+For diffusion flames of methane, ethylene, and selected nitrogen dilutions of each fuel burning in a
+coflow of air:
+
+(1) Characterize the structure of the flame, especially its base (i.e., stabilizing region), from
+attached through lifted conditions as a function of the fuel, burner diameter, and flow conditions.
+
+(2) Identify the liftoff velocity limits as a function of the fuel and burner diameter.
+
+Approach
+
+Flame liftoff was previously studied in a glovebox on the space shuttle, with the Enclosed Laminar
+Flames (ELF) investigation which flew as part of the STS-87 mission. The SLICE experiment uses
+SPICE hardware which was based directly on the earlier ELF hardware. Compared to ELF, the SLICE
+experiment provides superior imaging and a much wider variety of test conditions.
+The experimental hardware for the Smoke Points In Co-flow Experiment (SPICE), of David L. Urban
+(NASA Glenn) and Peter B. Sunderland (U. Maryland), which is currently onboard the International
+Space Station, was built to allow studies of coflow laminar diffusion flames. The SPICE hardware is
+within the ISS MSG in the image to the right. While the SPICE investigation has been specifically
+focused on a study of soot production and oxidation within flames, the hardware can be used
+without modification to conduct the SLICE experiment. In terms of the experimental hardware, the
+only additional requirements for SLICE are more fuel (i.e., gas bottles), recording media, and minor
+hardware elements such as new nozzle(s). The three existing SPICE nozzles are all smaller than the
+nozzle planned for the CLD Flame experiment. Of course, the SLICE testing could most benefit the
+CLD Flame experiment by bracketing and/or including the same nozzle size. It is also possible that
+screen(s) would be flown to alter the velocity profile of the coflow.
+
+The SLICE operating procedures will have some differences to the standard SPICE procedures given
+the differing objectives. However, those changes are fully within the capabilities of the SPICE
+hardware, as demonstrated by exploratory testing that has already been conducted on orbit. As a
+simple example, the standard SPICE procedure calls for a fixed air velocity and an increase of the
+fuel flow until the smoke point is reached. In contrast, SLICE will include testing where the fuel flow
+is fixed, and the air velocity is incrementally increased until the diffusion flame detaches and lifts
+off from the nozzle. In all cases, still and video measurements of the flame structure will be made
+for comparison with detailed numerical computations. Given that the capture of the lifting
+processes in normal gravity is extremely difficult, SLICE will provide valuable photographic
+observations on the transient flame behavior.
+
+The lifted nature of the flames can be discerned from the flame shape in the example images
+(which are not at the same scale) and the distance from the nozzle tip (which is not visible). While
+the case(s) on the left may look like attached flames, the outward fuel-lean flare of each flame's
+base reveals it's lifted nature.
+
+                                                     SLICE Contacts
+
+                    Project Manager: Robert Hawersaat, NASA Glenn Research Center
+
+                          Principal Investigator: Prof. Marshall Long, Yale University
+                            Co-Investigator: Prof. Mitchell Smooke, Yale University
+
+                    Co-Investigator: Mr. Dennis Stocker, NASA Glenn Research Center
+                                 Co-Investigator: Dr. Fumiaki Takahashi, NCSER
+
+                                     Engineering Team: ZIN Technologies, Inc.
+

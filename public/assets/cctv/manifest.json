@@ -1,0 +1,159 @@
+{
+  "resolution": "960x540, 24 fps, 8 s loop, H.264",
+  "cameras": {
+    "vis": "Обычная камера, видимый свет (RGB)",
+    "spec": "Спецкамера ICCD (УФ-усилитель) + полосовой фильтр 350–470 нм — свечение CH2O* холодного пламени"
+  },
+  "states": {
+    "normal": "Норма",
+    "hot": "Фаза 1: горячее пламя — видно на обеих камерах",
+    "cool": "Фаза 2: холодное пламя — видно ТОЛЬКО на спецкамере"
+  },
+  "sections": {
+    "command": {
+      "name": "КОМАНДНЫЙ ОТСЕК",
+      "camera_id": "CAM-01",
+      "videos": {
+        "normal": {
+          "vis": "videos/command_normal_vis.mp4",
+          "spec": "videos/command_normal_spec.mp4"
+        },
+        "hot": {
+          "vis": "videos/command_hot_vis.mp4",
+          "spec": "videos/command_hot_spec.mp4"
+        },
+        "cool": {
+          "vis": "videos/command_cool_vis.mp4",
+          "spec": "videos/command_cool_spec.mp4"
+        }
+      }
+    },
+    "lab": {
+      "name": "ЛАБОРАТОРИЯ ГОРЕНИЯ",
+      "camera_id": "CAM-02",
+      "videos": {
+        "normal": {
+          "vis": "videos/lab_normal_vis.mp4",
+          "spec": "videos/lab_normal_spec.mp4"
+        },
+        "hot": {
+          "vis": "videos/lab_hot_vis.mp4",
+          "spec": "videos/lab_hot_spec.mp4"
+        },
+        "cool": {
+          "vis": "videos/lab_cool_vis.mp4",
+          "spec": "videos/lab_cool_spec.mp4"
+        }
+      }
+    },
+    "habitat": {
+      "name": "ЖИЛОЙ ОТСЕК",
+      "camera_id": "CAM-03",
+      "videos": {
+        "normal": {
+          "vis": "videos/habitat_normal_vis.mp4",
+          "spec": "videos/habitat_normal_spec.mp4"
+        },
+        "hot": {
+          "vis": "videos/habitat_hot_vis.mp4",
+          "spec": "videos/habitat_hot_spec.mp4"
+        },
+        "cool": {
+          "vis": "videos/habitat_cool_vis.mp4",
+          "spec": "videos/habitat_cool_spec.mp4"
+        }
+      }
+    },
+    "galley": {
+      "name": "КАМБУЗ",
+      "camera_id": "CAM-04",
+      "videos": {
+        "normal": {
+          "vis": "videos/galley_normal_vis.mp4",
+          "spec": "videos/galley_normal_spec.mp4"
+        },
+        "hot": {
+          "vis": "videos/galley_hot_vis.mp4",
+          "spec": "videos/galley_hot_spec.mp4"
+        },
+        "cool": {
+          "vis": "videos/galley_cool_vis.mp4",
+          "spec": "videos/galley_cool_spec.mp4"
+        }
+      }
+    },
+    "medbay": {
+      "name": "МЕДОТСЕК",
+      "camera_id": "CAM-05",
+      "videos": {
+        "normal": {
+          "vis": "videos/medbay_normal_vis.mp4",
+          "spec": "videos/medbay_normal_spec.mp4"
+        },
+        "hot": {
+          "vis": "videos/medbay_hot_vis.mp4",
+          "spec": "videos/medbay_hot_spec.mp4"
+        },
+        "cool": {
+          "vis": "videos/medbay_cool_vis.mp4",
+          "spec": "videos/medbay_cool_spec.mp4"
+        }
+      }
+    },
+    "engine": {
+      "name": "ЭНЕРГООТСЕК",
+      "camera_id": "CAM-06",
+      "videos": {
+        "normal": {
+          "vis": "videos/engine_normal_vis.mp4",
+          "spec": "videos/engine_normal_spec.mp4"
+        },
+        "hot": {
+          "vis": "videos/engine_hot_vis.mp4",
+          "spec": "videos/engine_hot_spec.mp4"
+        },
+        "cool": {
+          "vis": "videos/engine_cool_vis.mp4",
+          "spec": "videos/engine_cool_spec.mp4"
+        }
+      }
+    },
+    "cargo": {
+      "name": "ГРУЗОВОЙ ОТСЕК",
+      "camera_id": "CAM-07",
+      "videos": {
+        "normal": {
+          "vis": "videos/cargo_normal_vis.mp4",
+          "spec": "videos/cargo_normal_spec.mp4"
+        },
+        "hot": {
+          "vis": "videos/cargo_hot_vis.mp4",
+          "spec": "videos/cargo_hot_spec.mp4"
+        },
+        "cool": {
+          "vis": "videos/cargo_cool_vis.mp4",
+          "spec": "videos/cargo_cool_spec.mp4"
+        }
+      }
+    },
+    "airlock": {
+      "name": "ШЛЮЗ / EVA",
+      "camera_id": "CAM-08",
+      "videos": {
+        "normal": {
+          "vis": "videos/airlock_normal_vis.mp4",
+          "spec": "videos/airlock_normal_spec.mp4"
+        },
+        "hot": {
+          "vis": "videos/airlock_hot_vis.mp4",
+          "spec": "videos/airlock_hot_spec.mp4"
+        },
+        "cool": {
+          "vis": "videos/airlock_cool_vis.mp4",
+          "spec": "videos/airlock_cool_spec.mp4"
+        }
+      }
+    }
+  },
+  "demo": "demo_lab_full_sequence.mp4"
+}

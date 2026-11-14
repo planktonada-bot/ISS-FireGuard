@@ -1,0 +1,95 @@
+Dust and Aerosol Measurement Feasibility Test (DAFT)
+
+The Dust and Aerosol Measurement Feasibility Test (DAFT) was designed
+to ensure that a modified P-Trak--a key component of the forthcoming
+NASA Smoke Aerosol Measurement Experiment (SAME)--will perform
+properly in the unique environment of microgravity. If the P-Trak performs
+as expected, the device will be used in SAME to provide data that will
+help scientists design better fire detectors for future, long duration,
+manned missions.
+
+Our understanding of how fires burn in a spacecraft has evolved since
+the fire detection equipment on space shuttle and space station was developed. One thing we have
+learned is that smoke particles that form in microgravity can be larger than those formed on Earth.
+Since smoke detectors are gauged to detect certain sizes of particles, this knowledge could help
+design more accurate smoke detectors for future spacecraft. The Smoke and Aerosol Measurement
+Experiment (SAME) is planned to gather particulate size information on ISS. The DAFT experiment,
+which was initiated after the Columbia accident, is to be used to obtain data in preparation for
+SAME using very little upmass.
+
+DAFT is intended to assess and characterize the distribution of particles in the air inside ISS to allow
+assessment of the suitability of current shuttle and ISS smoke detectors. This experiment was
+begun on Expedition 10 and is planned for completion during Expedition 13. DAFT is designed to
+test the effectiveness of the PTrak Ultrafine Particle Counter, a device that counts ultra-fine dust
+particles in a microgravity environment. Most particle counters work by using a laser to record
+instances when the beam is interrupted; however, this method will not record ultra-fine particles
+that are much smaller than the wavelength of the light. P-Trak works by passing dust-laden air
+through a chamber of vaporous isopropyl alcohol. When a droplet of alcohol condenses over an
+ultra-fine dust particle, the particle becomes large enough to break the light beam and be counted.
+The alcohol is then recycled as it condenses on sidewalls and gravity pulls the alcohol back to the
+saturator. If the results are satisfactory, P-Trak will be used in SAME, which requires counts of
+particles ranging from 0.2-1 micron.
+
+ISS Science for Everyone
+
+Science Objectives for Everyone
+
+The Dust Aerosol Measurement Feasibility Test (DAFT) releases particles in the International Space
+Station (ISS) atmosphere to test the ability of different equipment to measure the levels of dust and
+air quality.
+
+Science Results for Everyone
+
+Little is known about the size of soot particles in space, which makes it hard to design accurate fire
+detectors for spacecraft. This experiment measured particle sizes aboard International Space
+Station (ISS) and tested a hand-held commercial detector. Data indicated low levels of particulate
+in ISS relative to Shuttles - not surprising given ISS's smaller crew size and its filtration system.
+Results show average particle sizes are larger on orbit than on Earth, perhaps due to inefficiency of
+the spacecraft's filter. Knowing the median particulate level throughout ISS will help design better
+smoke detectors capable of distinguishing normal dust from dangerous smoke particles.
+
+Applications
+
+Space Applications
+
+Extended duration space flight missions with larger vessels will require fire detection systems with
+increased reliability and sensitivity. To provide the data required for that development, SAME needs
+to utilize the DAFT experiment to provide mitigation against the risk that the P-Trak may not be able
+to provide the required data.
+
+Additionally, in the event that the experiment is successful, it may be possible to use these devices
+to provide more detailed information about the character of the particulate in the atmosphere
+aboard the ISS.
+
+Earth Applications
+
+The smoke detectors developed from the results of SAME can also be useful in other extreme
+environments on Earth, such as submarines or underwater laboratories. Accurate detection of
+smoke in these environments can save lives.
+
+Operations
+
+Operational Requirements and Protocols
+
+Since they have no external power requirements, DAFT-1 and DAFT-2 can be operated almost
+anywhere (where the release of small amounts of alcohol is permitted) within the ISS. Downlinking
+is performed using a program supplied by the project and installed onto an EXPRESS computer.
+Three test points can be accomplished by a single crew member in 80 minutes.
+
+DAFT-3 and DAFT-4 needs ISS gaseous nitrogen and therefore require an active nitrogen source, and
+safety restraint for the fill device. Test point time increases by 15 minutes per point.
+
+The crew member simply assembles the test set up from the included packages, turns the devices
+on and waits 6 minutes for operation, noting average readings and/or anomalies. Sensitivity to the
+alcohol content of the atmosphere on board the ISS limits usage of the P-Trak to a maximum of
+three test points per day. For DAFT-3 and DAFT-4 precautions regarding overfilling the sample bag
+and preventing potential hose whip exist.
+
+                                                  Contact Information
+
+                                            PI: Dr. David Urban, NASA GRC
+                                             PS: Dr. Gary Ruff, NASA GRC
+
+                                           PM: William Sheredy, NASA GRC
+                                     Engineering Team: ZIN Technologies, Inc.
+

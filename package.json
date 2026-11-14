@@ -1,0 +1,16 @@
+{
+  "name": "iss-fireguard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FireGuard — SI-powered fire-safety dashboard built on NASA PSI microgravity combustion data (NASA Space Apps 2026: Flame in Freefall)",
+  "main": "server.js",
+  "scripts": {
+    "build-data": "node scripts/build-data.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "latest",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2"
+  }
+}

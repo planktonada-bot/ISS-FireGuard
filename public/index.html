@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FireGuard SI</title>
+<meta name="description" content="SI-powered fire-safety dashboard built on NASA PSI microgravity combustion data">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 3c3 6 9 9 9 16a9 9 0 0 1-18 0c0-4 2-6 4-8 0 3 1 5 3 6-1-5 0-10 2-14z' fill='%23ff8a2a'/%3E%3C/svg%3E">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+</head>
+<body data-state="ok">
+<div class="bg" aria-hidden="true"><div class="bg-img"></div><div class="bg-tint"></div><div class="bg-pulse"></div><div class="stars"></div></div>
+
+<header class="topbar">
+  <div class="brand">
+    <svg viewBox="0 0 32 32" class="brand-ico" aria-hidden="true"><path d="M16 3c3 6 9 9 9 16a9 9 0 0 1-18 0c0-4 2-6 4-8 0 3 1 5 3 6-1-5 0-10 2-14z"/></svg>
+    <div><div class="brand-name">FIREGUARD <span>SI</span></div><div class="brand-sub" data-i18n="tagline">Fire safety insights from NASA microgravity combustion data</div></div>
+  </div>
+  <nav class="views" role="tablist">
+    <button class="view-btn active" data-view="monitor" data-i18n="v_monitor">Mission Monitor</button>
+    <button class="view-btn" data-view="explorer" data-i18n="v_explorer">PSI Research Explorer</button>
+    <button class="view-btn" data-view="lab" data-i18n="v_lab">Flammability Lab</button>
+    <button class="view-btn" data-view="lessons" data-i18n="v_lessons">Lessons &amp; Spinoffs</button>
+  </nav>
+  <div class="top-right">
+    <label class="hab"><span data-i18n="habitat">Habitat</span>
+      <select id="habitat"></select></label>
+    <div class="pill" id="aiPill" title="">SI: …</div>
+    <button class="icon-btn" id="soundBtn" title="Alarm sound">🔇</button>
+    <button class="icon-btn" id="langBtn">RU</button>
+    <div class="clock" id="clock">--:--:--</div>
+  </div>
+</header>
+
+<!-- ============ MISSION MONITOR ============ -->
+<main id="view-monitor" class="view active">
+  <div class="demo-row">
+    <div class="demo">
+      <span data-i18n="demo">Demo</span>
+      <div class="seg" id="speedSeg"><button data-s="1" class="on">×1</button><button data-s="5">×5</button><button data-s="15">×15</button></div>
+      <button class="btn ghost" id="triggerBtn" data-i18n="trigger">Trigger incident</button>
+      <button class="btn ghost" id="restartBtn" data-i18n="restart">New scenario</button>
+      <span class="scen-clock" id="scenWrap"><span class="muted" data-i18n="scen_time">Scenario time</span> <b id="scenClock">00:00:00</b></span>
+    </div>
+  </div>
+  <div class="mod-tabs" id="modTabs"></div>
+
+  <div class="mon-deck"><div class="mon-grid">
+    <section class="panel sensors-panel">
+      <div class="panel-head"><h2><span id="modName">—</span> <small id="modDesc"></small></h2>
+        <div class="status-chip" id="statusChip">NOMINAL</div></div>
+      <div class="alert-banner" id="alertBanner" hidden></div>
+      <div class="sensor-grid" id="sensorGrid"></div>
+    </section>
+
+    <section class="right-col">
+      <div class="panel gauges">
+        <div class="gauge-box">
+          <div class="g-title" data-i18n="danger_level">Danger level</div>
+          <div class="donut-wrap"><canvas id="dangerDonut"></canvas><div class="donut-val"><b id="dangerVal">0</b><span>%</span></div></div>
+          <div class="g-sub" id="dangerSub">—</div>
+        </div>
+        <div class="gauge-box" id="g2box">
+          <div class="g-title" id="g2title" data-i18n="fire_chance">Fire probability</div>
+          <div class="donut-wrap"><canvas id="chanceDonut"></canvas><div class="donut-val"><b id="chanceVal">0</b><span id="chanceUnit">%</span></div></div>
+          <div class="g-sub" id="chanceSub">—</div>
+        </div>
+        <div class="station-mini">
+          <div class="g-title" data-i18n="station">Station status</div>
+          <svg id="issMap" viewBox="0 0 300 150" aria-label="ISS module map"></svg>
+          <div class="legend"><i class="ok"></i><span data-i18n="st_ok">Nominal</span><i class="warn"></i><span data-i18n="st_warn">Risk</span><i class="fire"></i><span data-i18n="st_fire">Fire</span></div>
+        </div>
+      </div>
+
+      <div class="panel cams">
+        <div class="panel-head"><h2><span data-i18n="cctv">Video surveillance</span> <small id="camId"></small></h2><span class="cam-state" id="camState"></span></div>
+        <div class="cam-grid">
+          <figure class="cam" id="camVis"><div class="vbox"><video muted loop playsinline preload="auto"></video><video muted loop playsinline preload="auto"></video></div><figcaption data-i18n="cam_vis">Normal camera (VIS)</figcaption></figure>
+          <figure class="cam" id="camSpec"><div class="vbox"><video muted loop playsinline preload="auto"></video><video muted loop playsinline preload="auto"></video></div><figcaption data-i18n="cam_spec">Special camera ICCD 350–470 nm</figcaption></figure>
+        </div>
+        <div class="muted small cam-note" id="camNote"></div>
+      </div>
+
+      <div class="panel ai-panel">
+        <div class="panel-head"><h2><span class="spark">✦</span> <span data-i18n="ai_title">SI Crew Advisor</span></h2>
+          <span class="ai-src" id="aiSrc">offline rules · NASA PSI</span></div>
+        <div class="ai-body" id="aiBody"></div>
+      </div>
+
+      <div class="panel chat-panel">
+        <div class="panel-head"><h2><span class="spark">💬</span> <span data-i18n="chat_title">Ask the SI</span></h2>
+          <span class="ai-src" data-i18n="chat_src">live sensors · NASA sources</span></div>
+        <div class="chat-body" id="chatBody"><div class="muted small chat-empty" data-i18n="chat_empty">Ask about current readings (e.g. “CO₂ now?”), what to do, or PSI research.</div></div>
+        <form class="ai-ask" id="aiAsk">
+          <input id="aiInput" autocomplete="off" placeholder="Ask about this situation or PSI research…" data-i18n-ph="ask_ph">
+          <button class="btn" data-i18n="ask">Ask</button>
+        </form>
+      </div>
+    </section>
+  </div></div>
+
+  <section class="panel log-panel">
+    <div class="panel-head"><h2 data-i18n="event_log">Event log</h2><span class="muted small" data-i18n="log_hint">All modules · newest first</span></div>
+    <ol class="log" id="eventLog"></ol>
+  </section>
+</main>
+
+<!-- ============ PSI EXPLORER ============ -->
+<main id="view-explorer" class="view">
+  <div class="kpis" id="kpis"></div>
+  <div class="ex-grid">
+    <section class="panel ex-filters">
+      <div class="search-row">
+        <input id="exSearch" placeholder="Ask the PSI data: e.g. flame spread at high oxygen" data-i18n-ph="ex_ph">
+      </div>
+      <div class="chips" id="pillarChips"></div>
+      <div class="chips" id="phaseChips"></div>
+      <div class="muted small" id="rankNote"></div>
+      <ol class="rank-list" id="rankList"></ol>
+    </section>
+    <section class="ex-right">
+      <div class="panel" id="detail"></div>
+      <div class="panel">
+        <div class="panel-head"><h2 data-i18n="param_space">Test conditions vs. exploration habitats</h2>
+          <span class="muted small" data-i18n="param_hint">Each dot = one PSI test point · rings = habitat atmospheres</span></div>
+        <div class="chart-box tall"><canvas id="spaceChart"></canvas></div>
+        <div class="gaps" id="gapNote"></div>
+      </div>
+      <div class="panel" id="comparePanel">
+        <div class="panel-head"><h2 data-i18n="compare">Compare investigations</h2><span class="muted small" data-i18n="compare_hint">Tick up to 3 in the ranked list</span></div>
+        <div id="compareBody" class="muted" data-i18n="compare_empty">Nothing selected yet.</div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<!-- ============ FLAMMABILITY LAB ============ -->
+<main id="view-lab" class="view">
+  <div class="lab-grid">
+    <section class="panel lab-inputs">
+      <h2 data-i18n="lab_title">Predict fire spread from PSI data</h2>
+      <p class="muted small" data-i18n="lab_note">Engineering estimate anchored on measured microgravity spread rates (Saffire-II: 2.1–2.6 mm/s for SIBAL at 20 cm/s, ~22% O₂) and BASS/BASS-II flammability trends. Not a certified model.</p>
+      <label><span data-i18n="material">Material</span><select id="labMat"></select></label>
+      <label><span>O₂, % <b id="labO2v"></b></span><input type="range" id="labO2" min="15" max="40" step="0.5" value="21"></label>
+      <label><span data-i18n="pressure">Pressure, kPa</span> <b id="labPv"></b><input type="range" id="labP" min="40" max="105" step="1" value="101"></label>
+      <label><span data-i18n="flow">Air flow, cm/s</span> <b id="labUv"></b><input type="range" id="labU" min="0" max="50" step="0.5" value="20"></label>
+      <label><span data-i18n="gravity">Gravity</span><select id="labG"><option value="0">Microgravity (ISS, Orion)</option><option value="0.166">Moon 1/6 g</option><option value="0.38">Mars 3/8 g</option><option value="1">Earth 1 g</option></select></label>
+      <div class="chips" id="labPresets"></div>
+    </section>
+    <section class="lab-right">
+      <div class="panel lab-result" id="labResult"></div>
+      <div class="panel"><div class="panel-head"><h2 data-i18n="lab_curve">Spread rate vs. air flow</h2></div><div class="chart-box"><canvas id="labChart"></canvas></div></div>
+      <div class="panel"><div class="panel-head"><h2 data-i18n="nearest">Nearest PSI test points</h2></div><div id="labNearest"></div></div>
+    </section>
+  </div>
+</main>
+
+<!-- ============ LESSONS ============ -->
+<main id="view-lessons" class="view">
+  <div class="lessons" id="lessons"></div>
+</main>
+
+<footer class="foot">
+  <span data-i18n="foot">Data: NASA Physical Sciences Informatics (psi.nasa.gov, CC0) · NASA GRC · NASA SMA lessons learned · Images: NASA (public domain). Decision support only — crew &amp; Mission Control procedures take precedence.</span>
+</footer>
+
+<script src="js/search.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/config.js"></script>
+<script src="js/flammability.js"></script>
+<script src="js/simulator.js"></script>
+<script src="js/advisor.js"></script>
+<script src="js/monitor.js"></script>
+<script src="js/explorer.js"></script>
+<script src="js/lab.js"></script>
+<script src="js/lessons.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

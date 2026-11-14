@@ -1,0 +1,432 @@
+Burning and Suppression of Solids (BASS)
+
+The Burning and Suppression of Solids (BASS) investigation examines
+the burning and extinction characteristics of a wide variety of fuel
+samples in microgravity. The BASS experiment will guide strategies for
+extinguishing accidental fires in microgravity. BASS results contribute to
+the combustion computational models used in the design of fire
+detection and suppression systems in microgravity and on Earth
+
+Research Summary
+
+    · Burning and Suppression of Solids (BASS) tests the hypothesis that materials in
+         microgravity, with adequate ventilation, burn as well if not better than the same material in
+         normal gravity with other conditions being identical (pressure, oxygen concentration,
+         temperature, etc.).
+
+    · There are important differences in the suppression of fires in space compared to on Earth.
+         On Earth it is understood that the best results are generally obtained when the extinguisher
+         "attacks" the base of the flame, which is both the stabilization point and the point where
+         fresh air first enters the flame.
+
+    · For a fire burning in microgravity, the best point of application of suppressant may not be
+         immediately apparent, especially for a partially obstructed flame or a wake-stabilized
+         flame. Depending on the geometry of the flame and the characteristics of the extinguisher
+         (distance from flame, dispersion angle) it is possible that the suppressant stream will be
+         ineffective or might actually make the flame worse through the entrainment of oxygen.
+         Using nitrogen as a flame suppressant in microgravity provides a direct link to current and
+         planned extinguishment techniques.
+
+Detailed Research Description
+
+Burning and Suppression of Solids (BASS) utilizes slightly modified Smoke Point In Co-flow
+Experiment (SPICE) hardware within the Microgravity Science Glovebox (MSG) for observations of
+burning solid materials on board the ISS.
+
+BASS consists of 41 fuel samples. There are three categories of samples: flat, solid spheres, and
+candles within tubes. Thin flat samples (12 cm long by 1 and 2 cm wide) yield concurrent-flow
+spread rate and limiting flame length. The cotton-fiberglass fabric blend Solid Inflammability
+Boundary at Low-Speeds (SIBAL) fuel is our principal thin material, and it was specially developed
+just for this purpose. Other thin materials are burned including Nomex and Ultem. Thick flat
+samples (5 cm long by 1 cm wide by 1 and 2 mm thick) of Polymethylmethacrylate (PMMA) and
+wax-saturated fiberglass fabric yield thickness effects on flame spread and extinguishment. Solid
+spheres of PMMA (1 and 2 cm in diameter) have the advantage of an axisymmetric geometry and
+permit multiple tests as the flame is extinguished and reignited. Ignition of either the front or back
+portion of the spheres is achieved. Finally, candles within a thin ceramic tube (6 mm in diameter by
+25 mm long) are examined. Two types of wax are used, common paraffin and "Japan wax", which
+has a very low soot point. For many of these tests, the nitrogen suppressant system is engaged at a
+gradually increasing level until extinction is reached.
+
+The important experimental observations from BASS with respect to the burning process include
+flame shape and appearance as a function of flow speed, flame spread rate (how fast the flame
+develops), and flame dynamics (pulsations, oscillations, etc.). With respect to extinction, the
+critical observations and data are the time to extinction as a function of fuel geometry, the nitrogen
+flow rate, and the flame distance from the nozzle. The dynamics of the flame before extinction are
+also important for comparison to the modeling work.
+
+The modeling effort includes:
+
+    · Modeling flame spread over flat samples: For flat samples, the steady spread
+         characteristics can be examined using the three-dimensional model currently available.
+         Alterations are the new tunnel and sample geometry and the upstream boundary condition.
+         For the flame growing phase, a transient model is currently being developed.
+
+    · Suppression by nitrogen injection: This can also be modeled readily using the current
+         model.
+
+    · Modeling burning and extinction of PMMA spheres: Similar problem on modeling two-
+         dimensional circular PMMA cylinder in cross flow has been performed. Some changes are
+         needed for the sphere and the duct flow.
+
+Zero-g facility test burning 2-cm-diameter PMMA sphere in 30 cm/s airflow. Left: 1 g; Middle: 0 g, 1 s
+after drop; right: 0 g, 4 s after application of nitrogen extinguishing agent. PMMA Sphere
+
+Drop tower results and modeling of a 2-cm-diameter PMMA sphere burning in 17% oxygen, 1 atm.
+pressure, at 2 cm/s forced convective flow. Experiment images are overlaid with computer
+simulations, which can capture the flame response as it transitions from 1-g to 0-g. Left-side
+contours show reaction rate (kgmol/m3/s); right side contours show temperature (K).
+
+Brief Research Operations
+
+    · The crewmember unstows and assembles the BASS hardware on the base plate within the
+         MSG working volume and connects electrical and data harnesses.
+
+    · Before each test point, the crew installs and positions fuel samples and igniters. Tunnel
+         flow speed, nitrogen flow rate, and flame ignition are controlled.
+
+    · After ignition and some period of burning, the crew turns on the nitrogen suppressant at an
+         increasing level until the flame goes out.
+
+    · The crew controls video and still camera functions. Some photos are downlinked for near-
+         real time coordination with the investigator. The crewmember uninstalls experiment from
+         the MSG and stows the hardware once BASS is completed.
+
+Operational Requirements:
+
+BASS is conducted inside the sealed MSG work volume. The crewmember is involved throughout
+the experiment to load fuel samples, initiate tests, ignite the fuel, adjust suppression, monitor and
+record data, exchange fuel samples, and replace the igniter. Forty-one test samples will be burned
+in a variety of flow conditions for a total of 89 test points.
+
+Data is downlinked via video during or immediately after each flame test. Digital photos are
+downlinked after selected flame tests for ground confirmation before proceeding. BASS testing
+session must be conducted during periods when no major reboost or docking procedures are
+underway on the International Space Station (ISS).
+
+Operational Protocols:
+
+The crewmember installs the BASS hardware in the MSG work volume. The BASS hardware consists
+of a small flow duct with an igniter and a small nozzle along with exchangeable fuel samples.
+During BASS operations a fan produces a co-flow of air through the duct. An anemometer is used to
+measure the actual flow rate. The crewmember adjusts the airflow from 5 to 50 cm/s. The flame is
+ignited and allowed to burn for about a minute. A nitrogen suppressant is then supplied via a mass
+flow controller, from 0 to 500 cc/min. A radiometer measures flame output. The crewmember
+conducts each test. They install the correct fuel assembly and set the air flow rate through the duct
+before igniting the flame. When the flame is ignited, the crewmember allows some time for the
+flame to stabilize then adjusts the flow of nitrogen suppressant through the nozzle until the flame
+goes out. After the test, the crewmember turns off the nitrogen flow and prepares for the next test.
+The science team on the ground monitors the video downlink to assist the crewmember in
+determining any peculiar flame behaviors and reviews the sensor data overlaid on the video image.
+Upon completion of the tests the crewmember stows the hardware, and the stored images and
+data are returned to Earth for analysis.
+
+Space Applications:
+
+The current NASA spacecraft materials selection is based on a standard test method (NASA-STD-
+6001 Test 1) that segregates material based on 1-g behavior without consideration of low gravity
+effects. A critical element of this understanding is the radiative heat emission from the flame. These
+results are used in first order models and predictions of heat release in spacecraft fires and to
+extend heat release data from tests like the NASA cone calorimeter test (NASA-STD-6001 Test 2) to
+a performance-based material selection process. Using nitrogen as a flame suppressant in
+microgravity provides a direct link to current and planned extinguishment techniques.
+
+Earth Applications:
+
+BASS results provide essential guidance to ground-based microgravity combustion research
+efforts. Detailed combustion models are validated using the simpler flow environment afforded by
+tests in microgravity. Once validated, they can be used to build more complex combustion models
+needed to capture the important details of flames burning in normal gravity. These models have
+wide applicability to the general understanding of many terrestrial combustion problems.
+
+Related Publications
+
+    · Armstrong JB, Olson SL, T'ien JS. Transient Model and Experimental Validation of Low
+         Stretch
+    Solid--Fuel Flame Extinction and Stabilization in Response to a Step Change in
+    Gravity. Combustion and Flame. Vol. 147. pp. 262--277 (2006).
+
+· Ferkul PV, T'ien JS. A Model of Low--Speed Concurrent Flow Flame Spread over a Thin
+    Fuel.
+    Combustion Science and Technology. Vol. 99. pp. 345--370 (1994).
+
+· Ferkul P, Kleinhenz J, Shih H--Y, Pettegrew R, Sacksteder K, T'ien J. Solid Combustion
+    Experiments Using a Continuous Fuel Dispenser for Use in Microgravity. Microgravity
+    Science and Technology. Vol. XV/2 (2004).
+
+· Foutch DW. Size and Shape of Solid Fuel Diffusion Flames in Very Low Speed Flows. NASA
+    CR--
+    179576 (1987).
+
+· Friedman R. Fire Safety in the Low--Gravity Spacecraft Environment. NASA TM--209285
+    (1999).
+
+· Goldmeer JS. Extinguishment of a Diffusion Flame Over a PMMA Cylinder by
+    Depressurization in
+    Reduced--Gravity. NASA CR--198550 (CWRU PhD Dissertation) (1996).
+
+· Hsu S--Y. Flame Spread and Extinction over Solids in
+    Buoyant and Forced Concurrent Flows:
+    Model Computations and Comparisons with Experiments. Ph.D. Dissertation, CWRU
+    (2009).
+
+· Ivanov AV, Balashov YV, Andreeva TV, Melikhov AS. Experimental Verification of Material
+    Flammability in Space. NASA CR--209405 (1999).
+
+· Jiang C--B. A Model of Flame Spread Over a Thin Solid in Concurrent Flow with Flame
+    Radiation.
+    Ph.D. Dissertation. CWRU (1995).
+
+· Kimzey JH. Skylab Experiment M479 Zero Gravity Flammability. Skylab Results, Proceedings
+    of the Third Space Processing Symposium. Vol. 1. pp. 115--130 (1974) and NASA TMX--
+    70252 (1974).
+
+· Olson SL, Ferkul PV, T'ien JS. Near--Limit Flame Spread Over a Thin Solid Fuel in
+    Microgravity.
+    Twenty--Second Symposium (International)
+    on Combustion. The Combustion Institute. pp. 1213--1222 (1998).
+
+· Olson SL, T'ien JS. Buoyant Low Stretch Diffusion Flames Beneath Cylindrical PMMA
+    Samples.
+    Combustion and Flame. Vol. 121. pp. 439--452 (2000).
+
+· Shih H--Y, T'ien JS. A Three--Dimensional Model of Steady Flame Spread over a Thin Solid in
+    Low--
+    Speed Concurrent Flows. Combustion Theory and Modeling. Vol. 7 (2003).
+    · Takahashi F, Linteris G, Katta VR. Extinguishment Mechanisms of Co--flow Diffusion Flames
+         in a
+         Cup--Burner Apparatus. Proceedings of The Combustion Institute. Vol. 31 (2007).
+
+    · Takahashi F, Linteris G, Katta VR. Extinguishment of Methane Diffusion Flames by Carbon
+         Dioxide in Co--flow Air and Oxygen-
+         Enriched Microgravity Environments. Combustion and Flame. Vol. 155, pp. 37--53 (2008).
+
+    · Tseng Y--T. Ignition and Flame Growth in Concurrent Forced Flow Over Thick Solids. M.S.
+         Thesis, CWRU (2007).
+
+                                                  Contact Information
+
+                                            PI: Dr. Paul Ferkul, NCSER GRC
+                                       PS/Co-I: Dr. Sandra Olson, NASA GRC
+
+                                            Co-I: Prof. James T'ien, CWRU
+                                         Co-I: Dr. Fumiaki Takahashi, NCSER
+                                         PM: Robert Hawersaat, NASA GRC
+                                     Engineering Team: ZIN Technologies, Inc.
+
+Burning and Suppression of Solids - II (BASS-II)
+
+Burning and Suppression of Solids - II (BASS-II) utilizes slightly
+modified Smoke Point In Co-flow Experiment (SPICE) hardware
+within the Microgravity Science Glovebox (MSG) for observations
+of burning solid materials on board the ISS.
+
+BASS-II consists of 100 fuel samples and associated igniter
+wires. There are three categories of samples: flat samples, rod
+samples, and a section of a large solid sphere. Thin flat samples
+(10 cm long by 1 and 2 cm wide) yield concurrent or opposed-flow spread rates, limiting flame
+lengths, and extinction limits. The flat sample materials will include acrylic films and sheets of
+different thicknesses, and a cotton-fiberglass fabric blend Solid Inflammability Boundary at Low-
+Speeds (SIBAL) fuel which was previously tested in BASS. The rod samples are made of black or
+clear acrylic and will provide solid fuel regression rates and extinction limits for both opposed and
+concurrent flow. The large solid spherical section, also made of acrylic, will be used to study
+ignition of thick materials and flame growth over the thick material.
+
+The important experimental observations from BASS-II with respect to the burning process include
+flame shape and appearance as a function of ambient oxygen concentration, flow speed, flame
+spread rate (how fast the flame develops), and flame dynamics (pulsations, oscillations, etc.). With
+respect to extinction, the critical observations and data are the time to extinction as a function of
+fuel geometry, flow, and ambient oxygen concentration. The dynamics of the flame before
+extinction are also important for comparison to the modeling work.
+The modeling effort includes:
+
+    · Modeling flame spread over flat samples: For flat samples, the steady spread
+         characteristics can be examined using the three-dimensional model currently available.
+         Alterations are the new tunnel and sample geometry and the upstream boundary condition.
+         For the flame growing phase, a transient model is currently being developed.
+
+    · Modeling burning and extinction of PMMA spheres: Similar problem on modeling two-
+         dimensional circular PMMA cylinder in cross flow has been performed. Some changes are
+         needed for the sphere and the duct flow.
+
+Science Objectives
+
+The Burning and Suppression of Solids -II (BASS-II) investigation examines the burning and
+extinction characteristics of a wide variety of fuel samples in microgravity. The BASS-II experiment
+will guide strategies for materials flammability screening for use in spacecraft as well as provide
+valuable data on solid fuel burning behavior in microgravity. BASS-II results contribute to the
+combustion computational models used in the design of fire detection and suppression systems in
+microgravity and on Earth.
+
+Science Results
+
+BASS-II tests produced data on how ambient oxygen, ventilation, and fuel affect combustion and
+burning. Theoretical formulas and data on flame spread do not always match in normal gravity.
+With data from microgravity, scientists determined thin and thick fuel spread rates and a formula
+for transition from thin to thick fuels. Models predict higher spread rates than observed, so need
+improvement. Data also allowed calculation of combustion completeness, heat release rates, and
+fuel-to-oxygen global equivalence ratios and supported theoretical models for quenching
+boundaries. Results will guide choice of materials for future spacecraft and advance fire detection
+and suppression in space and on Earth.
+
+Research Overview
+
+    · Burning and Suppression of Solids - II (BASS-II) tests the hypothesis that materials in
+         microgravity, with adequate ventilation, burn as well if not better than the same material in
+         normal gravity with other conditions being identical (pressure, oxygen concentration,
+         temperature, etc.).NASA tests materials for flammability using an upward burning test,
+         which is considered to be the worst-case geometry for flammability of the material on
+         Earth. One objective of the BASS-II tests is to identify what is the worst case for material
+         flammability in spacecraft environments, and how does that compare to the terrestrial
+         upward burning used to screen the materials for safe use aboard spacecraft.
+
+    · The main variables to be tested are the effects of ambient oxygen concentration, ventilation
+         flow velocity, and fuel type, thickness, and geometry. Many of the tests will focus on finding
+         a minimum oxygen concentration or flow velocity where a material will burn in space, to
+         compare with Earth-based limits. Flame growth rates are also of interest, to determine how
+         quickly a fire in space can grow and if the flames reach a finite size or continue to grow. This
+         has implications for firefighting strategies in spacecraft.
+    · Detailed combustion models can be validated by data obtained in the simpler flow
+         environment in microgravity. Once validated, they can be used to build more complex
+         combustion models needed to capture the important details of flames burning in normal
+         gravity. These models have wide applicability to the general understanding of many
+         terrestrial combustion problems.
+
+Space Applications
+
+A primary goal of BASS-II is improved spacecraft fire safety, improved understanding of combustion
+in space and how to avoid it. If you're on a mission far from Earth, a fire can be catastrophic. BASS-II
+helps engineers select the safest materials and improve firefighting methods on future space
+missions.
+
+Earth Applications
+
+In outer space, fuels burn as oval balls rather than with an upward pointed cone flame as they do on
+Earth. This simpler combustion process enables researchers to evaluate computer models of fuel
+burning. These models can then be used to more accurately study flames on Earth, such as in
+wildfires, building fires, energy recapture from waste recycling, and other combustion problems.
+
+Operational Requirements and Protocols
+
+BASS-II is conducted inside the sealed MSG work volume. The crewmember is involved throughout
+the experiment to load fuel samples, adjust nitrogen gas (GN2) concentration in the working volume
+vitiation of the working volume, initiate tests, ignite the fuel, monitor and record data, exchange fuel
+samples, and replace the igniter. Forty-one test samples will be burned in a variety of flow
+conditions for a total of 89 test points. Data is downlinked via video during or immediately after
+each flame test. Digital photos are downlinked after selected flame tests for ground confirmation
+before proceeding. BASS-II testing session must be conducted during periods when no major
+reboost or docking procedures are underway on the International Space Station (ISS).
+
+The crewmember installs the BASS-II hardware in the MSG work volume. The BASS-II hardware
+consists of a small flow duct with an igniter and a small nozzle along with exchangeable fuel
+samples. During BASS-II operations a fan produces a co-flow of air through the duct. An
+anemometer is used to measure the actual flow rate. The crewmember adjusts the airflow from 5 to
+50 cm/s. Nitrogen vitiation of the working volume is then initiated using station GN2 at a flow rate of
+up to 500 cc/min for a prescribed time. The flame is ignited and allowed to burn for about a minute.
+A radiometer measures flame output. The crewmember conducts each test. They install the correct
+fuel assembly and set the air flow rate through the duct before igniting the flame. When the flame is
+ignited, the crewmember allows some time for the flame to stabilize then adjusts the flow of
+nitrogen suppressant through the nozzle until the flame goes out. After the test, the crewmember
+turns off the nitrogen flow and prepares for the next test. The science team on the ground monitors
+the video downlink to assist the crewmember in determining any peculiar flame behaviors and
+reviews the sensor data overlaid on the video image. Upon completion of the tests the crewmember
+stows the hardware, and the stored images and data are returned to Earth for analysis.
+                                                  Contact Information
+
+                                                Principal Investigators:
+               Dr. Sandra Olson, NASA Glenn Research Center, Cleveland, Ohio, United States
+
+                                            Co-Investigators/Collaborators:
+     Dr. Paul Ferkul, National Center for Space Exploration Research, Cleveland, Ohio, United States
+
+        Prof. Carlos Fernandez-Pello, , University of California at Berkeley, Berkeley, California, US
+             Prof. Fletcher Miller, San Diego State University, San Diego, California United States
+
+          Prof. Indrek Wichman, Michigan State University, East Lansing, Michigan, United States
+             Prof. James Tien, Case Western Reserve University, Cleveland, Ohio, United States
+
+         Prof. Subrata Bhattachjee, San Diego State University,San Diego, California, United States
+
+                                                       Project Manager:
+                  Robert Hawersaat, Glenn Research Center, Cleveland, Ohio, United States
+
+                                                      Engineering Team:
+                                                    ZIN Technologies, Inc.
+
+Burning and Suppression of Solids-Milliken (BASS-M)
+
+The Burning and Suppression of Solids-Milliken (BASS-M) investigation
+utilizes slightly modified Smoke Point In Co-flow Experiment (SPICE)
+hardware within the Microgravity Science Glovebox (MSG) for
+observations of burning solid materials on board the International Space
+Station (ISS).
+
+BASS-M consists of 44 textile samples with integrated igniter wires.
+There are four samples of each textile type, of which there are eleven. A
+set of control samples are included which provide untreated textile
+samples. The other ten sets of textile samples share a similar configuration. Each has a small piece
+untreated textile which is ignited by an integrated hot wire igniter. The flame from the untreated
+textile impinges on the treated textile which is immediately adjacent to the untreated sample.
+
+The important experimental observations from BASS-M, with respect to the burning process,
+include flame shape and appearance as a function of flow speed, flame spread rate (how fast the
+flame develops), and flame dynamics (pulsations, oscillations, etc.). With respect to extinction, the
+critical observations and data to be collected are the time to extinction as a function of textile
+material and air flow. The dynamics of the flame before extinction are also important for
+comparison to the modeling work.
+
+Research Overview
+
+    · The Burning and Suppression of Solids-Milliken (BASS-M) investigation tests the hypothesis
+         that materials in microgravity, with adequate ventilation, burn as well, if not better than, the
+         same material in normal gravity with other conditions being identical (pressure, oxygen
+         concentration, temperature, etc.).
+
+    · BASS-M tests ten different treated textiles at various air flow rates found in forced
+         convection in microgravity environments, or in a free fall environment. Each textile's ability
+         to self-extinguish is evaluated and compared against normal terrestrial behavior.
+
+    · NASA tests materials for flammability using an upward burning test, which is considered to
+         be the worst-case geometry for flammability of the material on Earth. One objective of the
+         BASS-M tests is to compare the microgravity results to the terrestrial upward burning used
+         to screen the materials for safe use.
+
+Space Applications
+
+NASA selects materials for use in space based on ground tests of their flammability. But these tests
+do not consider the effects of microgravity, which changes how materials burn. This investigation
+conducts space-based burning and flame extinguishment tests on cotton textiles that have been
+treated with flame retardants. Results provide new knowledge of how low gravity affects a
+material's flame-retardant behavior, improving procedures for testing new materials.
+
+Earth Applications
+
+Flame-retardant materials are designed to stop flames from spreading and consuming more
+material. This investigation provides new information on how low gravity affects a material's flame-
+retardant material behavior, which benefits materials science research on Earth.
+
+Operational Requirements and Protocols
+
+BASS-M is conducted inside the sealed MSG work volume. The crew member is involved throughout
+the experiment to load flame retardant textile samples, initiate tests, ignite the untreated textile
+sample, monitor and record data, exchange textile samples, and replace the memory card in the
+still camera. Forty-four test samples are burned in a variety of flow conditions for a total of 44 test
+points.
+
+Data is downlinked via video during, or immediately after, each flame test. Digital photos are
+downlinked after selected flame tests for ground confirmation before proceeding. BASS-M testing
+session must be conducted during periods when no major re-boost or docking procedures are
+underway on the International Space Station.
+
+The crew member installs the SPICE and BASS hardware in the MSG work volume. The SPICE and
+BASS hardware consists of a small flow duct with an igniter and a small nozzle, along with
+exchangeable textile samples. During BASS operations, a fan produces a co-flow of air through the
+duct. An anemometer is used to measure the actual flow rate. The crew member adjusts the airflow
+from 5 to 50 cm/s. The untreated textile is ignited and allowed to impinge on the treated textile until
+both extinguish, which takes about a minute. A radiometer measures flame output. The crew
+member conducts each test by installing the correct textile assembly and setting the correct air
+flow rate through the duct before igniting the flame. After the test, the crew member prepares for
+the next test. The science team on the ground monitors the video downlink to assist the crew
+member in determining any peculiar flame behaviors and reviews the sensor data overlaid on the
+video image. Upon completion of the tests, the crew member stows the hardware, and the stored
+images and data are returned to Earth for analysis.
+

@@ -1,0 +1,28 @@
+1
+00:00:00,000 --> 00:00:04,000
+1997: a fire on Mir filled the station
+with smoke in minutes.
+
+2
+00:00:04,000 --> 00:00:07,000
+In microgravity, fire behaves differently.
+
+3
+00:00:07,000 --> 00:00:13,000
+FireGuard SI turns 26 NASA PSI combustion studies
+into a live safety dashboard.
+
+4
+00:00:13,000 --> 00:00:20,000
+It predicts fire risk in every ISS module —
+and how fast fire spreads next door.
+
+5
+00:00:20,000 --> 00:00:26,000
+Its AI advisor tells the crew what to do,
+citing the NASA experiment behind each step.
+
+6
+00:00:26,000 --> 00:00:30,000
+FireGuard SI:
+NASA fire science, one click from the crew.

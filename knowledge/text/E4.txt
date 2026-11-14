@@ -1,0 +1,215 @@
+Flame Extinguishment Experiment (FLEX)
+
+The Flame Extinguishment Experiment (FLEX) experiment was designed
+to assess and quantify the effectiveness of inert-gas suppressants in
+microgravity and obtain the most conservative estimate of the limiting
+oxygen index for steady combustion. FLEX is studying the behavior of
+near-limit diffusion flames examining in detail liquid- and gas-phase
+transport and chemical kinetics and developed and is validating detailed
+and reduced-order transport and chemistry models that are the
+foundation for real engine simulations.
+
+Flame Extinguishment Experiment (FLEX) will map the flammability boundaries for liquid fuel
+combustion in reduced gravity to quantify the suppressant efficacy of various gaseous
+suppressants over the range of candidate atmospheric pressures and oxygen concentrations. This
+investigation will develop predictive theoretical and numerical codes and chemical kinetic
+schemes to model flammability boundaries as a function effective gravitational acceleration on the
+unique ambient conditions encountered in space exploration applications. The development and
+validation of these models will require detailed spatially and temporally resolved measurements of
+droplet burning rate, flame extinction, flame radiation, soot concentration, soot temperature, etc.
+This investigation will also develop improved and validated reduced (simplified) theoretical and
+numerical sub-models of important physical processes (chemical kinetics, radiation, soot
+formation/destruction) that can be used in simulations of large scale, realistic fires.
+
+The independent experiment variables analyzed by MDCA-FLEX are:
+
+Oxygen Mole Fraction: The ambient oxygen mole fraction in a typical space environment can vary
+from high concentrations in EVA pre-breathing environments down to that typically found in air. At
+high oxygen concentrations, however, the chemical times are small enough (relative to the
+characteristic flow times) such that the droplets will burn to completion rather than exhibiting
+flame extinction. Therefore, it is also necessary to study low oxygen concentrations, down to the
+Limiting Oxygen Index (LOI). It is also important to determine the LOI to verify the chemical
+mechanisms. The oxygen mole fractions in the present study will vary from 0.10 to 0.50. The
+chamber must also be large enough such that there is no significant decrease in ambient oxygen
+mole fraction during an experiment (i.e. the droplet burns in an essentially constant ambient).
+
+Diluent (non-suppressant): The ambient mixture will consist of oxygen mixed with a suppressant
+and the balance of an inert diluent gas. The diluent gas for these studies will be primarily nitrogen
+since that is the typical diluent on Earth and expected in space. There will be a small number of
+tests with a helium diluent gas. The reason is primarily for baseline comparisons with the Droplet
+Combustion Experiment, which used helium as the diluent gas and to vary the physical properties
+of the diluent gas.
+
+Suppressant Type: The tests will examine candidate gaseous suppressants that have widely
+varying physical, chemical and radiative properties. This will enable model and sub-model
+development and validation over a wide range of ambient conditions to improve the predictive
+capabilities of the models. The suppressants are carbon dioxide and helium. The expected
+concentrations range from 0.00 mole fraction to the limit where no flame can exist (0.70 expected
+for the least active suppressant).
+
+Pressure: Ambient pressure does not significantly influence the droplet burning rate but does
+influence chemistry at sufficiently low values. In addition, one strategy for extinguishing a fire is to
+isolate the habitat where it exists and vent the cabin to space. It is therefore beneficial to have
+verified suppressant data at low pressures. The pressure for the tests will range from 0.5 to 1.0 atm
+(standard atmosphere). As with the oxygen mole fraction, it is important that the test chamber be
+sufficiently large so that the pressure is essentially constant during an experiment (i.e. the droplet
+burns in a constant pressure ambient).
+
+Fuel Type: The advantage of the droplet geometry is that the fuel is relatively simple and better
+characterized than typical fuels in fire safety studies (e.g., PMMA or paper). This is also a
+disadvantage since it does not represent a practical fuel. The study will use two typical hydrocarbon
+fuels, an alcohol, methanol (CH3OH) and an alkane, heptane (C7H16). There is a relatively large
+experience base with these fuels. Methanol has a fuel-bound oxygen atom and burns with a very
+dim blue flame (not much soot production) with a small standoff distance, so it has widely different
+radiative characteristics than heptane. Therefore, studying these two fuels gives a wide range of fire
+scenarios to verify model and sub-model performance over.
+
+Droplet Diameter: The droplet is ignited in the flammable region and then burns in a constant
+oxygen mole fraction ambient until flame extinction. Under the assumption of quasi-steady
+burning, the initial droplet size should not significantly influence the determination of the extinction
+droplet size. Transient influences, however, will be present, so some variation in initial droplet
+diameter is necessary to determine the deviation from quasi-steady behavior. The initial droplet
+size in the proposed study will vary between 2 and 5 mm.
+
+Related Documents
+
+         ???
+
+Publications
+
+         ???
+
+                                                  Contact Information
+
+                                   PI Team: Prof. Forman Williams, UCSD (lead)
+                                            Prof. Frederick Dryer, Princeton
+
+                                     Prof. Mun Choi, University of Connecticut
+                                           Prof. Benjamin Shaw, USC-Davis
+                                              Dr. Vedha Nayagam, NCSER
+                                               Michael Hicks, NASA GRC
+                                          PS: Dr. Daniel Dietrich, NASA GRC
+                                          PM: J. Mark Hickman, NASA GRC
+
+                                     Engineering Team: ZIN Technologies, Inc.
+Flame Extinguishment Experiment-2 (FLEX-2)
+
+The second in the FLEX series of experiments, the FLEX-2 investigation
+uses fuels and environmental conditions that mimic real combustor
+conditions. The investigation will extend and advance the research into
+droplet combustion, studying the influence of sub-buoyant convective
+flows on combustion rates, determining the influence of a second
+burning droplet on a linear array, and beginning the study of practical
+fuels by burning bi-component and surrogate fuels. As the research
+extends into increasingly complex fuels, FLEX-2 data can help verify
+models of real fuels used in transportation and industry. Results of the
+FLEX-2 experimental data will help to develop verified detailed and reduced-order models of
+droplet combustion, particularly with flow-field and droplet-droplet interactions.
+
+The spherically symmetric combustion of a liquid fuel droplet in a quiescent oxidizing atmosphere
+is a classical problem in combustion research. The advantage of the spherical symmetry is that
+only one spatial dimension enters the description of the combustion process. This greatly
+simplifies the mathematics required for modeling combustion processes. Microgravity experiments
+provide the opportunity to achieve this spherical symmetry, a fact which NASA has used to its
+advantage in fundamental investigations for a number of years. The Fundamental Studies in Droplet
+Combustion and Flame Extinguishment in Microgravity (FLEX-2) investigation touches on a number
+of far-reaching combustion phenomena that can be uniquely addressed through the idealized
+geometry of a droplet burning in microgravity.
+
+Studies of the liquid-phase mixing of the different components in fuels clarifies the way practical
+fuels turn to gas from liquid in the combustion process. Understanding soot formation during the
+combustion of liquid fuels is also studied. These studies are important due to soot's negative
+effects on the environment and on human health. Knowledge of soot formation also has practical
+uses in certain industrial processes. The interactions of droplets with their gaseous environments
+and with other droplets are studied to reveal the fundamental dynamics of combustion.
+
+In the absence of gravity, small droplets of fuel (i.e., from 2 mm to 4 mm in diameter) burn "one-
+dimensionally", which means the flame will be shaped a like ball about the size of a large olive that
+will be centered around the droplet. This one-dimensional nature of the droplet flame allows the
+science team to easily measure and understand important features of the burning fuel that would
+otherwise be impossible to obtain on the ground. This particular type of flame configuration allows
+measurement and observation of very complex interactions in a spherically one-dimensional
+system, providing insights into the behavior of combustion phenomena that would otherwise be
+difficult, if not impossible, to obtain in multi-dimensional systems that are typically found in most
+1-g fires.
+
+The Fundamental Studies in Droplet Combustion and Flame Extinguishment in Microgravity - 2
+(FLEX-2) experiments involve dispensing, deploying and igniting either a single droplet or a pair of
+droplets, depending on the experiment configuration, in a known and controlled gaseous
+environment. The ignited droplets either burn to completion or the flame extinguishes at a finite
+droplet radius in a quiescent ambient. During the experiments involving binary droplet arrays, two
+droplets are placed along a support fiber at known locations and the droplets are ignited
+simultaneously and the subsequent burning is recorded. In the convective flow tests, a single
+droplet is subjected to a known and controlled sub-buoyant flow of the quiescent atmosphere
+around the droplet. The flow is realized when the droplet is tethered to a substrate. In this tethered
+mode the droplet is placed at the intersection of two fiber crosshairs. The cross hairs are then
+moved through the quiescent atmosphere surrounding the droplet.
+
+The experiments in FLEX-2 can easily be categorized into four separate groupings; these being, the
+pure fuel experiments, the fuel mixture experiments, the convective flow experiments, and the
+binary droplet array experiments. Each of these groupings are sponsored by one or more
+investigators comprising the investigation team and entail anywhere from 30 to 60 separate tests
+using different fuels, different ambient conditions, or different droplet configurations.
+
+                                                  Contact Information
+
+                                   PI Team: Prof. Forman Williams, UCSD (lead)
+                                           Prof. Frederick Dryer, Princeton;
+
+                                     Prof. Mun Choi, University of Connecticut;
+                                          Prof. Benjamin Shaw, USC-Davis;
+                                             Dr. Vedha Nayagam, NCSER;
+                                           Prof. Thomas Avedisian, Cornell;
+                                            Dr. Daniel Dietrich, NASA GRC
+                                            PS: Michael Hicks, NASA GRC
+                                          PM: J. Mark Hickman, NASA GRC
+
+                                     Engineering Team: ZIN Technologies, Inc.
+
+Flame Extinguishment Experiment -2 JAXA (FLEX-2J)
+
+The FLEX-2J experiment is a joint effort between NASA and the Japanese
+Space Agency, JAXA, as well as Nihon University and Yamaguchi
+University. Derived from the JAXA Group Combustion Experiment
+science objectives, the FLEX-2J will complement those goals using the
+NASA FLEX-2 hardware and combustion facilities on ISS. FLEX-2J will
+observe and measure fuel droplet motions during flame spreading along
+a one-dimensional droplet array. Three droplets will be deployed to fixed
+positions upon ceramic beads on a silicon carbide fiber. Then an
+additional three to ten movable droplets are positioned to the fiber at
+known locations. The first fixed droplet is ignited, and the flame is propagated down the array from
+droplet to droplet. The subsequent burning and motions of the unpinned droplets are recorded;
+particularly the velocities of the free droplets before and after flame spread are measured. In
+addition, the experiment will obtain the history of flame leading edge position, flame spread limit
+span, and the growth process of the group flame along the fuel droplet array. Specifically, the
+experiment will measure burning rate, burning time, flame spread and droplet motion as a function
+of inter-droplet spacing, ambient pressure and gas composition.
+
+                                                  Contact Information
+
+    PI Team: Masao Kikuchi, JAXA; Hiroshi Nomura, Nihon University; Masato Mikami, Yamaguchi
+                                                         University
+
+                                          PS: Dr. Daniel Dietrich, NASA GRC
+                                           PM: J. Mark Hickman, NASA GRC
+                                     Engineering Team: ZIN Technologies, Inc.
+
+FLEX-Italian Combustion Experiment for Green Air (FLEX-ICE-GA)
+
+The FLEX-Italian Combustion Experiment for Green Air will test surrogate
+fuels as defined by the Italian Space Agency (ASI) within the CIR in the
+FLEX-2 configuration. A collaborative agreement between U.S. and
+Italian scientists from the Italian National Research Council-Istituto
+Motori will allow collaboration on research into biologically derived fuels
+(biofuels) in an investigation into new, green energy sources.
+Researchers from the NRC-Istituto Motori have identified the fuels to be
+used as 50-50 mixtures of n-heptane/ethanol and 50-50 n-hexanol/n-
+decane.
+
+Contact Information
+
+PI Team: Patrizio Massoli, Istituto Motori of Italian National Research Center (CNR), Napoli
+PS: Dr. Daniel Dietrich, NASA GRC
+PM: J. Mark Hickman, NASA GRC
+Engineering Team: ZIN Technologies, Inc.
+
